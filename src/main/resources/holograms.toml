@@ -1,0 +1,19 @@
+active-holograms = [
+    "spawn"
+]
+
+[spawn]
+location = { world = "world", x = 5.2, y = 10.1, z = 10.52 }
+lines = [
+    "My First Line",
+    "My Second Line",
+    { entity="Chicken", separation=3, line="&aClick aquí >:)"},
+]
+
+[kill]
+isModifiable = true
+lines = [
+    "My First Line",
+    "My Second Line",
+    { entity="Chicken", separation=3, line="&aClick aquí >:)" }
+]
